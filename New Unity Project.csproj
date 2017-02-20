@@ -103,7 +103,12 @@
     <Compile Include="Assets\Day Night Cycle\Scripts\DemoScripts\RoatateCamera.cs" />
     <Compile Include="Assets\scripts\ButtonManager.cs" />
     <Compile Include="Assets\scripts\PlayerVitals.cs" />
+    <Compile Include="Assets\scripts\Swim.cs" />
     <Compile Include="Assets\scripts\chase.cs" />
+    <Compile Include="Assets\scripts\chase2.cs" />
+    <Compile Include="Assets\scripts\flock.cs" />
+    <Compile Include="Assets\scripts\globalFlock.cs" />
+    <Compile Include="Assets\scripts\type2AI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\3DForge\FantasyExteriors\Village %26 Towns\Documents\Blacksmith v1.0 - user guide.txt" />

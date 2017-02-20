@@ -8,11 +8,15 @@ public class globalFlock : MonoBehaviour {
     static int numbFlock = 50;
     public static GameObject[] allAnimals = new GameObject[numbFlock];
     public static int tankSize = 5;
+
     
     public static Vector3 goalPos = Vector3.zero;
 	// Use this for initialization
 	void Start () {
-        for(int i = 0; i<numbFlock; i++)
+
+
+
+        for (int i = 0; i<numbFlock; i++)
         {
             Vector3 pos = new Vector3(Random.Range(-tankSize, tankSize),
                                       Random.Range(-tankSize, tankSize),
@@ -27,8 +31,8 @@ public class globalFlock : MonoBehaviour {
         if (Random.Range(0, 10000) < 50)
         {
             goalPos = new Vector3(Random.Range(-tankSize, tankSize),
-                                  Random.Range(-tankSize, tankSize),
-                                  Random.Range(-tankSize, tankSize));
+                                      Random.Range(-tankSize, tankSize),
+                                      Random.Range(-tankSize, tankSize)); ;
             goalPrefab.transform.position = goalPos;
         }
     }
